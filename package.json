@@ -1,0 +1,19 @@
+{
+  "name": "gitwatcher-examples",
+  "version": "0.0.0",
+  "description": "Examples of the git-watcher project usage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'IT WORKS! This line is just for travis to run something and pass the 'test' :)'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felipesabino/gitwatcher-examples.git"
+  },
+  "author": "Felipe Sabino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipesabino/gitwatcher-examples/issues"
+  },
+  "homepage": "https://github.com/felipesabino/gitwatcher-examples"
+}

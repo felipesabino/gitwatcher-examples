@@ -1,0 +1,8 @@
+{
+  "files": {
+    "list": [
+      "example-files/can-not-be-modified.txt"
+    ],
+    "should-ignore-added": false
+  }
+}
