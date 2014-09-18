@@ -1,3 +1,12 @@
 language: node_js
 node_js:
   - "0.10"
+before_install:
+  - git clone https://github.com/felipesabino/gitwatcher
+  - cd gitwatcher
+  - npm install
+  - npm link
+  - cd ..
+  - pwd
+  - ls -la
+  - git-watcher-files --commit $TRAVIS_COMMIT_RANGE
