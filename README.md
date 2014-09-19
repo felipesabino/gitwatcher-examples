@@ -1,9 +1,8 @@
 Examples of git-watcher usage
 ====================
 
-Add the following code to the `before_install` section of yout `.travis.yml` file
+Add `gitwatcher` dependency to your package.json `devDependencies` section and then the following code to the `before_script` section of yout `.travis.yml` file
 
 ```
-- npm install -g gitwatcher
-- git-watcher-files --commit $TRAVIS_COMMIT_RANGE
+- ./node_modules/.bin/git-watcher-files --commit $TRAVIS_COMMIT_RANGE
 ```
