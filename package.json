@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/felipesabino/gitwatcher-examples/issues"
   },
-  "homepage": "https://github.com/felipesabino/gitwatcher-examples"
+  "homepage": "https://github.com/felipesabino/gitwatcher-examples",
+  "devDependencies": {
+    "gitwatcher": "*"
+  }
 }
