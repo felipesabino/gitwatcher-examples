@@ -1,8 +1,9 @@
 Examples of git-watcher usage
 ====================
 
-Check the following branches to see the differente scenarios
+Add the following code to the `before_install` section of yout `.travis.yml` file
 
-- Instalation from source - *pending*
-- Instalation from npm - *pending*
-- Commit raising error after file being modified - *pending*
+```
+- npm install -g gitwatcher
+- git-watcher-files --commit $TRAVIS_COMMIT_RANGE
+```
